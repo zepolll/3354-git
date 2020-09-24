@@ -1,0 +1,7 @@
+a) 2
+b) 1/24/2017 
+c) git log shows the log for commits in the repository. Git status shows the status of the working tree.
+d) An untracked file is a file in the tree of the repository but is not listed. An unstaged file is listed but the contents of the file are 
+different from the contents listed. 
+e) Git reset updates the index moving the head. While git checkout, updates the working tree.
+f) It will pull an older version of the directory. 
