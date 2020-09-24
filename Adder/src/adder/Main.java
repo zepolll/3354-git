@@ -10,7 +10,7 @@ public class Main {
             if(args.length<1)
 		    System.out.println("Please enter any amount of positive integers.");
 	    else 
-		    System.out.println("Error in input"); 
+		    System.out.println("Error in input: wrong character"); 
         }
     }
 
