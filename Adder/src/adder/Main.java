@@ -14,11 +14,18 @@ public class Main {
         }
     }
 
-    private static int addArguments(String[] args) {
-	int result = 0;
-	for(int i =0;i<args.length;i++){
-		result += Integer.valueOf(args[i]);	
-	}	
+    private static int addArguments(String[] args) 
+    	int result = 0;
+	if(args[0].equals('-')){
+		for(int i = 1;i<args.length;i++){
+			result -= Integer.valueOf(args[i]);
+		}
+	}
+    	else{ 
+		for(int i =0;i<args.length;i++){
+			result += Integer.valueOf(args[i]);	
+		}
+	}
         return result;
     }
 }
